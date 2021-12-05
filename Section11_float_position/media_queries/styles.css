@@ -1,0 +1,45 @@
+/* Mobile first - our default styles are for mobile (up to 576px) */
+
+body {
+  background: yellow;
+}
+
+.banner {
+  background: blue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+/* This is for tablet, 576-768px width */
+
+@media screen and (min-width: 576px) {
+  body {
+    background: red;
+  }
+
+  .banner {
+    background: yellow;
+  }
+
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+}
+
+/* This is for desktop, 768px+ */
+@media screen and (min-width: 768px) {
+  body {
+    background: green;
+  }
+
+  .banner {
+    background: pink;
+    margin-top: 60px;
+  }
+}

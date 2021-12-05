@@ -1,0 +1,16 @@
+.navbar {
+  background: red;
+  font-size: 2rem;
+}
+nav {
+  background: blue;
+  font-size: 2rem;
+}
+a {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}

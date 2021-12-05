@@ -1,0 +1,8 @@
+a {
+  font-size: 2rem;
+  display: inline-block;
+  border: 1px solid red;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}

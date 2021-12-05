@@ -1,0 +1,43 @@
+div {
+  border: 2px solid red;
+  background: yellow;
+  margin-top: 40px;
+}
+
+.navbar {
+  background: red;
+  color: white;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  position: sticky;
+  margin-top: 50px;
+  top: 0;
+  width: 100%;
+}
+
+.one {
+  background: blue;
+  color: white;
+  position: relative;
+  top: 200px;
+  left: 40px;
+}
+
+.two {
+  border: 1px solid red;
+  /* position: relative; */
+}
+
+.special {
+  background: pink;
+  font-size: 20px;
+  color: #222;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+.container {
+  background: blue;
+  min-height: 300vh;
+}

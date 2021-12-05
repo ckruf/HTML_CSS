@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+ul li a {
+    color: #f15025;
+    text-decoration: none;
+    letter-spacing: 2px;
+    background: #222;
+    /* See what happens if you remove display: block */
+    display: block;
+    padding: 5px;
+    /* margin: 10px 10px; */
+    text-align: center;
+    border-top: 1px solid #f15025;
+    border-left: 1px solid #f15025;
+    border-right: 1px solid #f15025;
+}
+
+#last {
+    border-bottom: 1px solid #f15025;
+}
+
+ul li a:hover{
+    background: black;
+}

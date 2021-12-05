@@ -1,0 +1,16 @@
+p::before {
+  content: "Hello, world. ";
+  color: aquamarine;
+  display: block;
+  background-color: #222;
+  font-size: 2rem;
+}
+
+p::after {
+  content: "";
+  height: 10px;
+  color: gray;
+  font-weight: bold;
+  display: block;
+  background-color: #222;
+}

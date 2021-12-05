@@ -1,0 +1,14 @@
+.block {
+    background: blue;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    /* display: inline; */
+}
+
+.inline {
+    background:red;
+    color: white;
+    /* display: block; */
+}

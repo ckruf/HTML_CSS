@@ -1,0 +1,13 @@
+a {
+  display: block;
+  border: 2px solid blue;
+  margin: 10px;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
